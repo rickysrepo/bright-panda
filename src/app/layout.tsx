@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Link from 'next/link';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,29 +32,29 @@ export default function RootLayout({
                 <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
                 <ul className="space-y-2">
                   <li>
-                    <a href="/" className="text-gray-400 hover:text-white">
+                    <Link href="/" className="text-gray-400 hover:text-white">
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/about" className="text-gray-400 hover:text-white">
+                    <Link href="/about" className="text-gray-400 hover:text-white">
                       About
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/classes" className="text-gray-400 hover:text-white">
+                    <Link href="/classes" className="text-gray-400 hover:text-white">
                       Classes
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/gallery" className="text-gray-400 hover:text-white">
+                    <Link href="/gallery" className="text-gray-400 hover:text-white">
                       Gallery
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/contact" className="text-gray-400 hover:text-white">
+                    <Link href="/contact" className="text-gray-400 hover:text-white">
                       Contact
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

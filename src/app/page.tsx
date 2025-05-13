@@ -136,11 +136,11 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-center mb-12">What Our Students Say</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-gray-50 p-6 rounded-lg">
-                <p className="text-gray-600 mb-4">"Bright Panda transformed my understanding of art. The instructors are incredibly supportive and knowledgeable."</p>
+                <p className="text-gray-600 mb-4">&ldquo;Bright Panda transformed my understanding of art. The instructors are incredibly supportive and knowledgeable.&rdquo;</p>
                 <p className="font-semibold">- Sarah M.</p>
               </div>
               <div className="bg-gray-50 p-6 rounded-lg">
-                <p className="text-gray-600 mb-4">"I've learned so much in just a few weeks. The classes are well-structured and the atmosphere is very welcoming."</p>
+                <p className="text-gray-600 mb-4">&ldquo;I&apos;ve learned so much in just a few weeks. The classes are well-structured and the atmosphere is very welcoming.&rdquo;</p>
                 <p className="font-semibold">- John D.</p>
               </div>
             </div>

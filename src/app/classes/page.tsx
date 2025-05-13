@@ -1,63 +1,6 @@
 import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 
-const classes = [
-  {
-    id: 1,
-    title: 'Drawing Fundamentals',
-    description: 'Learn the essential techniques of drawing, from basic shapes to complex compositions.',
-    duration: '8 weeks',
-    level: 'Beginner',
-    price: '$299',
-    image: 'https://picsum.photos/400/300?random=8'
-  },
-  {
-    id: 2,
-    title: 'Painting Techniques',
-    description: 'Explore various painting styles and techniques using acrylics, oils, and watercolors.',
-    duration: '10 weeks',
-    level: 'Intermediate',
-    price: '$349',
-    image: 'https://picsum.photos/400/300?random=9'
-  },
-  {
-    id: 3,
-    title: 'Sculpture Workshop',
-    description: 'Create three-dimensional art using clay, wood, and other materials.',
-    duration: '6 weeks',
-    level: 'All Levels',
-    price: '$279',
-    image: 'https://picsum.photos/400/300?random=10'
-  },
-  {
-    id: 4,
-    title: 'Digital Art',
-    description: 'Learn digital illustration and design using industry-standard software.',
-    duration: '8 weeks',
-    level: 'Beginner',
-    price: '$329',
-    image: 'https://picsum.photos/400/300?random=11'
-  },
-  {
-    id: 5,
-    title: 'Portrait Drawing',
-    description: 'Master the art of portrait drawing with focus on facial features and expressions.',
-    duration: '6 weeks',
-    level: 'Intermediate',
-    price: '$299',
-    image: 'https://picsum.photos/400/300?random=12'
-  },
-  {
-    id: 6,
-    title: 'Abstract Art',
-    description: 'Explore abstract art techniques and develop your unique artistic style.',
-    duration: '8 weeks',
-    level: 'All Levels',
-    price: '$329',
-    image: 'https://picsum.photos/400/300?random=13'
-  }
-];
-
 export default function Classes() {
   return (
     <main className="min-h-screen">
