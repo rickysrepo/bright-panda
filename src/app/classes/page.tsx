@@ -129,13 +129,13 @@ export default function Classes() {
                   <td className="py-3 px-4 border-b">English</td>
                   <td className="py-3 px-4 border-b">Monday</td>
                   <td className="py-3 px-4 border-b">6:00 PM - 8:00 PM</td>
-                  <td className="py-3 px-4 border-b">Cindy Baby</td>
+                  <td className="py-3 px-4 border-b">Cindy</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b">Mathematics</td>
                   <td className="py-3 px-4 border-b">Tuesday</td>
                   <td className="py-3 px-4 border-b">6:00 PM - 8:00 PM</td>
-                  <td className="py-3 px-4 border-b">Ricky Baba</td>
+                  <td className="py-3 px-4 border-b">Ricky</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b">Mandarin</td>
@@ -147,13 +147,13 @@ export default function Classes() {
                   <td className="py-3 px-4 border-b">Art</td>
                   <td className="py-3 px-4 border-b">Thursday</td>
                   <td className="py-3 px-4 border-b">6:00 PM - 8:00 PM</td>
-                  <td className="py-3 px-4 border-b">Cindy Baby</td>
+                  <td className="py-3 px-4 border-b">Cindy</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b">AI</td>
                   <td className="py-3 px-4 border-b">Friday</td>
                   <td className="py-3 px-4 border-b">6:00 PM - 8:00 PM</td>
-                  <td className="py-3 px-4 border-b">Ricky Baba</td>
+                  <td className="py-3 px-4 border-b">Ricky</td>
                 </tr>
               </tbody>
             </table>
