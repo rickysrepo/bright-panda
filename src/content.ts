@@ -1,206 +1,210 @@
 export const content = {
   about: {
-    title: "About Bright Panda",
-    subtitle: "Discover the story behind our passion for art education",
+    title: "Lorem ipsum dolor sit amet",
+    subtitle:
+      "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
     story: {
-      title: "Our Story",
+      title: "Lorem ipsum dolor sit amet",
       paragraphs: [
-        "Founded in 2010, Bright Panda began with a simple mission: to make art education accessible to everyone in our community. What started as a small studio with just a few students has grown into a vibrant center for artistic expression and learning.",
-        "Our experienced instructors are passionate about sharing their knowledge and helping students of all skill levels discover their creative potential. We believe that art is not just a skill to be learned, but a way of seeing and experiencing the world.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       ],
     },
     team: {
-      title: "Our Team",
+      title: "Lorem ipsum dolor",
       members: [
         {
-          name: "Cindy",
-          role: "Drawing & Painting Instructor",
+          name: "Olivia",
+          role: "Lorem ipsum instructor",
           image: "https://picsum.photos/400/400?random=5",
         },
         {
-          name: "Jenny",
-          role: "Sculpture & Digital Art Instructor",
+          name: "Ethan",
+          role: "Lorem ipsum instructor",
           image: "https://picsum.photos/400/400?random=6",
         },
         {
-          name: "Lillian",
-          role: "Mixed Media & Abstract Art Instructor",
+          name: "Mia",
+          role: "Lorem ipsum instructor",
           image: "https://picsum.photos/400/400?random=7",
         },
       ],
     },
     values: {
-      title: "Our Values",
+      title: "Lorem ipsum dolor",
       items: [
         {
-          title: "Creativity",
+          title: "Lorem ipsum",
           description:
-            "We encourage creative expression and innovative thinking in all our classes.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         },
         {
-          title: "Community",
+          title: "Dolor sit amet",
           description:
-            "We foster a supportive environment where artists can grow and learn together.",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         },
         {
-          title: "Excellence",
+          title: "Consectetur elit",
           description:
-            "We maintain high standards in our teaching and artistic practice.",
+            "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
         },
       ],
     },
   },
   home: {
     hero: {
-      title: "Welcome to Bright Panda",
+      title: "Lorem ipsum dolor sit amet",
       subtitle:
-        "Discover your creative potential with our expert-led art classes",
-      cta: "View Our Classes",
+        "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+      cta: "Lorem ipsum",
     },
     featuredClasses: {
-      title: "Our Classes",
+      title: "Lorem ipsum classes",
       classes: [
         {
           title: "English",
           description:
-            "Develop strong communication skills through interactive activities and creative writing.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           image: "https://picsum.photos/400/300?random=1",
         },
         {
           title: "Mathematics",
           description:
-            "Develop problem-solving skills and mathematical thinking through engaging activities.",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           image: "https://picsum.photos/400/300?random=2",
         },
         {
           title: "Mandarin",
           description:
-            "Learn Chinese language and culture through interactive lessons and cultural activities.",
+            "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
           image: "https://picsum.photos/400/300?random=3",
         },
         {
           title: "Art",
           description:
-            "Explore various art mediums and develop your creative expression.",
+            "Duis aute irure dolor in reprehenderit in voluptate velit esse.",
           image: "https://picsum.photos/400/300?random=4",
         },
         {
           title: "AI",
           description:
-            "Learn about artificial intelligence and machine learning through hands-on projects.",
+            "Excepteur sint occaecat cupidatat non proident, sunt in culpa.",
           image: "https://picsum.photos/400/300?random=5",
         },
       ],
     },
     testimonials: {
-      title: "What Our Students Say",
+      title: "Lorem ipsum testimonials",
       items: [
         {
-          text: "Bright Panda transformed my understanding of art. The instructors are incredibly supportive and knowledgeable.",
-          author: "Sarah M.",
+          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          author: "Grace",
         },
         {
-          text: "I've learned so much in just a few weeks. The classes are well-structured and the atmosphere is very welcoming.",
-          author: "John D.",
+          text: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          author: "Jack",
         },
       ],
     },
   },
   classes: {
-    title: "Our Classes",
-    subtitle: "Explore our diverse range of educational programs",
+    title: "Lorem ipsum classes",
+    subtitle:
+      "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
     programs: [
       {
         id: "english",
         title: "English",
         description:
-          "Our English program focuses on developing strong communication skills through interactive activities, reading comprehension, and creative writing. Students will enhance their vocabulary, grammar, and speaking abilities in a supportive environment.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         image: "https://picsum.photos/800/600?random=1",
       },
       {
         id: "mathematics",
         title: "Mathematics",
         description:
-          "Our Mathematics program helps students develop strong problem-solving skills and mathematical thinking. We cover topics from basic arithmetic to advanced algebra, making math engaging and accessible for all levels.",
+          "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image: "https://picsum.photos/800/600?random=2",
       },
       {
         id: "mandarin",
         title: "Mandarin",
         description:
-          "Our Mandarin program introduces students to Chinese language and culture. Through interactive lessons, students learn pronunciation, writing, and conversational skills while gaining cultural understanding.",
+          "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         image: "https://picsum.photos/800/600?random=3",
       },
       {
         id: "art",
         title: "Art",
         description:
-          "Our Art program encourages creative expression through various mediums. Students explore drawing, painting, sculpture, and mixed media while developing their artistic skills and personal style.",
+          "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         image: "https://picsum.photos/800/600?random=4",
       },
       {
         id: "ai",
         title: "AI",
         description:
-          "Our AI program introduces students to the fundamentals of artificial intelligence and machine learning. Through hands-on projects, students learn about algorithms, data analysis, and the ethical implications of AI technology.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         image: "https://picsum.photos/800/600?random=5",
       },
     ],
     schedule: {
-      title: "Class Schedule",
+      title: "Lorem ipsum schedule",
       classes: [
         {
           name: "English",
           day: "Monday",
           time: "6:00 PM - 8:00 PM",
-          instructor: "Cindy",
+          instructor: "Lucas",
         },
         {
           name: "Mathematics",
           day: "Tuesday",
           time: "6:00 PM - 8:00 PM",
-          instructor: "Ricky",
+          instructor: "Ava",
         },
         {
           name: "Mandarin",
           day: "Wednesday",
           time: "6:00 PM - 8:00 PM",
-          instructor: "Lillian",
+          instructor: "Mason",
         },
         {
           name: "Art",
           day: "Thursday",
           time: "6:00 PM - 8:00 PM",
-          instructor: "Cindy",
+          instructor: "Zoe",
         },
         {
           name: "AI",
           day: "Friday",
           time: "6:00 PM - 8:00 PM",
-          instructor: "Ricky",
+          instructor: "Leo",
         },
       ],
     },
   },
   contact: {
-    title: "Contact Us",
-    subtitle: "Get in touch with us for any questions or inquiries",
+    title: "Lorem ipsum contact",
+    subtitle:
+      "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
     info: {
       address: {
-        title: "Address",
-        content: "279 Remuera Road\nRemuera\nAuckland, New Zealand",
+        title: "Lorem ipsum address",
+        content:
+          "Lorem ipsum dolor sit amet\nConsectetur adipiscing elit\nSed do eiusmod tempor",
       },
       email: {
-        title: "Email",
-        content: "info@brightpanda.co.nz",
+        title: "Lorem ipsum email",
+        content: "lorem@ipsum.com",
       },
       phone: {
-        title: "Phone",
-        content: "+64 9 123 4567",
+        title: "Lorem ipsum phone",
+        content: "+00 0 000 0000",
       },
     },
     social: {
-      title: "Follow Us",
+      title: "Lorem ipsum social",
       platforms: [
         {
           name: "Facebook",
@@ -213,98 +217,99 @@ export const content = {
       ],
     },
     form: {
-      title: "Send us a Message",
+      title: "Lorem ipsum form",
       fields: [
         {
           name: "name",
-          label: "Name",
+          label: "Lorem Name",
           type: "text",
         },
         {
           name: "email",
-          label: "Email",
+          label: "Lorem Email",
           type: "email",
         },
         {
           name: "message",
-          label: "Message",
+          label: "Lorem Message",
           type: "textarea",
         },
       ],
-      submit: "Send Message",
+      submit: "Lorem Submit",
     },
   },
   gallery: {
-    title: "Gallery",
-    subtitle: "Explore our collection of student and instructor artworks",
+    title: "Lorem ipsum gallery",
+    subtitle:
+      "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
     showcase: {
-      title: "Student Showcase",
+      title: "Lorem ipsum showcase",
       description:
-        "Our students create amazing works of art. Join our classes and see your work featured here!",
-      cta: "Join Our Classes",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.",
+      cta: "Lorem Join",
     },
     artworks: [
       {
         id: 1,
-        title: "Sunset Over Mountains",
-        artist: "Sarah Johnson",
-        category: "Painting",
+        title: "Lorem artwork 1",
+        artist: "Ruby",
+        category: "Lorem Category",
         image: "https://picsum.photos/400/400?random=14",
       },
       {
         id: 2,
-        title: "Urban Life",
-        artist: "Michael Chen",
-        category: "Drawing",
+        title: "Lorem artwork 2",
+        artist: "Max",
+        category: "Lorem Category",
         image: "https://picsum.photos/400/400?random=15",
       },
       {
         id: 3,
-        title: "Abstract Emotions",
-        artist: "Emily Rodriguez",
-        category: "Abstract",
+        title: "Lorem artwork 3",
+        artist: "Ella",
+        category: "Lorem Category",
         image: "https://picsum.photos/400/400?random=16",
       },
       {
         id: 4,
-        title: "Portrait Study",
-        artist: "Student Work",
-        category: "Drawing",
+        title: "Lorem artwork 4",
+        artist: "Finn",
+        category: "Lorem Category",
         image: "https://picsum.photos/400/400?random=17",
       },
       {
         id: 5,
-        title: "Nature's Beauty",
-        artist: "Student Work",
-        category: "Painting",
+        title: "Lorem artwork 5",
+        artist: "Noah",
+        category: "Lorem Category",
         image: "https://picsum.photos/400/400?random=18",
       },
       {
         id: 6,
-        title: "Modern Sculpture",
-        artist: "Sarah Johnson",
-        category: "Sculpture",
+        title: "Lorem artwork 6",
+        artist: "Emma",
+        category: "Lorem Category",
         image: "https://picsum.photos/400/400?random=19",
       },
       {
         id: 7,
-        title: "Digital Dreams",
-        artist: "Michael Chen",
-        category: "Digital Art",
+        title: "Lorem artwork 7",
+        artist: "Henry",
+        category: "Lorem Category",
         image: "https://picsum.photos/400/400?random=20",
       },
       {
         id: 8,
-        title: "Colorful Expressions",
-        artist: "Student Work",
-        category: "Abstract",
+        title: "Lorem artwork 8",
+        artist: "Chloe",
+        category: "Lorem Category",
         image: "https://picsum.photos/400/400?random=21",
       },
       {
         id: 9,
-        title: "Still Life",
-        artist: "Emily Rodriguez",
-        category: "Painting",
+        title: "Lorem artwork 9",
+        artist: "Owen",
+        category: "Lorem Category",
         image: "https://picsum.photos/400/400?random=22",
       },
     ],
