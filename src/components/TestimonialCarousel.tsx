@@ -40,7 +40,7 @@ export default function TestimonialCarousel({
         },
       });
     }
-  }, [show, animatedIn]);
+  }, [show, animatedIn, testimonials]);
 
   // Carousel animation
   useEffect(() => {

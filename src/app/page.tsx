@@ -8,7 +8,7 @@ import TestimonialCarousel from "@/components/TestimonialCarousel";
 import ErrorBoundary from "@/components/ErrorBoundary";
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
-import { bannerAnimation, cardsAnimation } from "@/utils/animations";
+import { bannerAnimation } from "@/utils/animations";
 
 export default function Home() {
   const { home } = content;
