@@ -5,46 +5,52 @@ export default function Contact() {
   const { contact } = content;
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen bg-white dark:bg-gray-900">
       <Navbar />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
             {contact.title}
           </h1>
-          <p className="text-xl text-gray-600">{contact.subtitle}</p>
+          <p className="text-xl text-gray-600 dark:text-gray-300">
+            {contact.subtitle}
+          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               Contact Information
             </h2>
             <div className="space-y-4">
               <div>
-                <h3 className="text-lg font-semibold text-gray-900">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   {contact.info.address.title}
                 </h3>
-                <p className="text-gray-600 whitespace-pre-line">
+                <p className="text-gray-600 dark:text-gray-300 whitespace-pre-line">
                   {contact.info.address.content}
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-gray-900">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   {contact.info.email.title}
                 </h3>
-                <p className="text-gray-600">{contact.info.email.content}</p>
+                <p className="text-gray-600 dark:text-gray-300">
+                  {contact.info.email.content}
+                </p>
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-gray-900">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   {contact.info.phone.title}
                 </h3>
-                <p className="text-gray-600">{contact.info.phone.content}</p>
+                <p className="text-gray-600 dark:text-gray-300">
+                  {contact.info.phone.content}
+                </p>
               </div>
             </div>
 
             <div className="mt-8">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
                 {contact.social.title}
               </h3>
               <div className="flex space-x-4">
@@ -52,7 +58,7 @@ export default function Contact() {
                   <a
                     key={platform.name}
                     href="#"
-                    className="text-gray-600 hover:text-indigo-600"
+                    className="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"
                   >
                     <span className="sr-only">{platform.name}</span>
                     <svg
@@ -82,7 +88,7 @@ export default function Contact() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               {contact.form.title}
             </h2>
             <form className="space-y-4">
@@ -90,7 +96,7 @@ export default function Contact() {
                 <div key={field.name}>
                   <label
                     htmlFor={field.name}
-                    className="block text-sm font-medium text-gray-700"
+                    className="block text-sm font-medium text-gray-700 dark:text-gray-300"
                   >
                     {field.label}
                   </label>
@@ -99,21 +105,21 @@ export default function Contact() {
                       id={field.name}
                       name={field.name}
                       rows={4}
-                      className="mt-1 block w-full rounded-md border-2 border-gray-200 px-3 py-2 focus:border-indigo-500 focus:ring-indigo-500"
+                      className="mt-1 block w-full rounded-md border-2 border-gray-200 dark:border-gray-600 px-3 py-2 bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:border-indigo-500 dark:focus:border-indigo-400 focus:ring-indigo-500 dark:focus:ring-indigo-400"
                     ></textarea>
                   ) : (
                     <input
                       type={field.type}
                       id={field.name}
                       name={field.name}
-                      className="mt-1 block w-full rounded-md border-2 border-gray-200 px-3 py-2 focus:border-indigo-500 focus:ring-indigo-500"
+                      className="mt-1 block w-full rounded-md border-2 border-gray-200 dark:border-gray-600 px-3 py-2 bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:border-indigo-500 dark:focus:border-indigo-400 focus:ring-indigo-500 dark:focus:ring-indigo-400"
                     />
                   )}
                 </div>
               ))}
               <button
                 type="submit"
-                className="w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                className="w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 dark:hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:focus:ring-indigo-400 focus:ring-offset-2 dark:focus:ring-offset-gray-900"
               >
                 {contact.form.submit}
               </button>
