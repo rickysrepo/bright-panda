@@ -108,14 +108,14 @@ export default function Home() {
           {/* Hero Section with GSAP fade-in animation */}
           <div className="relative h-[600px]">
             <Image
-              src="https://picsum.photos/1920/1080"
+              src="https://picsum.photos/1920/1080?grayscale?blur"
               alt="Art Class Hero"
               fill
               className="object-cover"
               priority
               sizes="100vw"
             />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <div className="absolute inset-0 bg-opacity-50 flex items-center justify-center">
               <div className="text-center text-white px-4 sm:px-6 lg:px-8">
                 <h1
                   ref={(el) => {
